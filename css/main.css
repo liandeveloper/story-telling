@@ -86,7 +86,11 @@ iframe {
 }
 
 .features {
+    max-width: 800px;
     display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 3rem 0;
